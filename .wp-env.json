@@ -1,0 +1,15 @@
+{
+  "core": "https://wordpress.org/latest.zip",
+  "plugins": [
+    "./woocommerce"
+  ],
+  "themes": [
+    "./storefront",
+    "./boutique"
+  ],
+  "port": 9000,
+  "testsPort": 9001,
+  "config": {
+    "WP_DEBUG_DISPLAY": true
+  }
+}
