@@ -30,6 +30,7 @@ The main directory contain a .wp-env.json file tto start a development enviromne
 - Download Woocommerce Storefront theme into directory **storefront**
 - Install wp-env running ```npm install -g wp-env```
 - Run ```vp-env start```
+- Add your customization into **boutique** directory
 
 The boutique theme is the custom theme where your customizations go into.
 You need to download the storefront theme and palce it into the storefront dir and the woocommerce plugin to download into the woocommerce directory.
