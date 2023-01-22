@@ -1,5 +1,11 @@
+# Custom Woocommerce theme development environment
+
+## Description:
+
 This repo is tset up to develop a Wordpress custom theme to extend the storefront Woocommerce theme.
 The main directory contain a .wp-env.json file tto start a development enviromnet with wp-env.
+
+### .wp-env.json
 ```
 {
   "core": "https://wordpress.org/latest.zip",
