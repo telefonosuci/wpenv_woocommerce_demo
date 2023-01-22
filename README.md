@@ -36,3 +36,6 @@ The boutique theme is the custom theme where your customizations go into.
 You need to download the storefront theme and palce it into the storefront dir and the woocommerce plugin to download into the woocommerce directory.
 
 The core attribute links to the Wordpress version you want to use, in this case gets the latest version.
+
+
+Follow the [wiki](https://github.com/telefonosuci/wpenv_woocommerce_demo/wiki). for a detailed configuration guide.
