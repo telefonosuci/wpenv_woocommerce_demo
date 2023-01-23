@@ -556,9 +556,3 @@ input[type=search] {
 .hentry .entry-content a {
   text-decoration: none;
 }
-
-.editor-styles-wrapper .wc-block-grid .wc-block-grid__products .wc-block-grid__product {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}

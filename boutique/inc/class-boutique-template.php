@@ -32,6 +32,43 @@ if ( ! class_exists( 'Boutique_Template' ) ) {
 			add_filter( 'storefront_best_selling_products_args', array( $this, 'product_columns_three' ),            99 );
 
 			add_action( 'wp_enqueue_scripts', array( $this, 'netar_load_cart_js' ), 99 );
+			add_action( 'init', array($this, 'netar_register_products_by_attribute_style'), 1);
+		}
+
+
+		public function netar_register_products_by_attribute_style(){
+
+			// Checkout Page
+			// wp_deregister_script('wc-cart');
+/*
+			wp_register_style(
+				'wp-block-products-by-attribute',
+				get_template_directory_uri() . '/assets/css/blocks/products-by-attribute.css'
+			);
+*/
+
+/*
+			register_block_style('woocommerce/products-by-attribute', [
+				'name' => 'my-pba',
+				'label' => __('My custom pba', 'netar'),
+				'style' => get_template_directory_uri() . '/assets/css/blocks/products-by-attribute.css'
+
+				'inline_style' => '.wc-block-grid__product {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+				}',
+
+
+			]);
+
+			*/
+
+
+			add_theme_support( 'editor-styles' );
+
+			// Enqueues editor styles.
+			add_editor_style( '/assets/css/blocks/products-by-attribute/editor.css' );
 		}
 
 
@@ -39,8 +76,13 @@ if ( ! class_exists( 'Boutique_Template' ) ) {
 
 			// Checkout Page
 			// wp_deregister_script('wc-cart');
-			wp_register_script('netar-custom-cart', get_template_directory_uri() . "/assets/js/frontend/custom-cart.js",
-			array( 'jquery', 'woocommerce'), WC_VERSION, TRUE);
+			wp_register_script(
+				'netar-custom-cart',
+				get_template_directory_uri() . "/assets/js/frontend/custom-cart.js",
+				array( 'jquery', 'woocommerce'),
+				WC_VERSION, TRUE
+			);
+
 			wp_enqueue_script('netar-custom-cart');
 
 		}

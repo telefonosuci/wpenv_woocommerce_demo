@@ -1,0 +1,16 @@
+{
+  "squarl.bookmarks": [
+    {
+      "name": "edit.tsx",
+      "path": "woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/edit.tsx",
+      "description": "edit.tsx product-categories",
+      "type": "file"
+    },
+    {
+      "name": "class-boutique-template.php",
+      "path": "boutique/inc/class-boutique-template.php",
+      "description": "class-boutique-template.php",
+      "type": "file"
+    }
+  ]
+}
