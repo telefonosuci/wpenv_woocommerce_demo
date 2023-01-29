@@ -1,10 +1,10 @@
 {
   "core": "https://wordpress.org/latest.zip",
   "plugins": [
-    "./vendor/plugins/woocommerce"
+    "./wordpress/wp-content/plugins/woocommerce"
   ],
   "themes": [
-    "./vendor/themes/storefront",
+    "./wordpress/wp-content/themes/storefront",
     "./custom/themes/netar-storefront"
   ],
   "port": 9000,

@@ -23,7 +23,7 @@ class Boutique_Customizer {
 	public function __construct() {
 		global $storefront_version;
 
-		add_action( 'wp_enqueue_scripts', 	array( $this, 'add_customizer_css' ),						1000 );
+		// add_action( 'wp_enqueue_scripts', 	array( $this, 'add_customizer_css' ),						1000 );
 		add_action( 'customize_register', 	array( $this, 'edit_default_controls' ),					99 );
 		add_filter( 'storefront_setting_default_values', array( $this, 'get_boutique_defaults' ) );
 		add_filter( 'storefront_default_background_color', array( $this, 'default_background_color' ) );

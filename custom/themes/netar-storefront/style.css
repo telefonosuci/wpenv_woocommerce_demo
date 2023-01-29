@@ -556,3 +556,11 @@ input[type=search] {
 .hentry .entry-content a {
   text-decoration: none;
 }
+
+.woocommerce-cart-form table th {
+  background-color: transparent;
+}
+
+.woocommerce-cart-form table td {
+  background-color: transparent;
+}
