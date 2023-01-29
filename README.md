@@ -10,11 +10,11 @@ The main directory contain a .wp-env.json file tto start a development enviromne
 {
   "core": "https://wordpress.org/latest.zip",
   "plugins": [
-    "./woocommerce"
+    "./vendor/plugins/woocommerce"
   ],
   "themes": [
-    "./storefront",
-    "./boutique"
+    "./vendor/themes/storefront",
+    "./custom/themes/netar-storefront"
   ],
   "port": 9000,
   "testsPort": 9001,

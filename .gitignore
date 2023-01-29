@@ -1,2 +1,4 @@
 storefront
-woocommerce
+wordpress/wp-content
+database/*
+!database/.gitkeep
